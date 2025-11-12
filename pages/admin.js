@@ -1,4 +1,3 @@
-import { jsx, jsxs, Fragment } from "../components/JSX";
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 
@@ -64,4 +63,5 @@ export default function Admin() {
       </main>
     </>
   );
+
 }
