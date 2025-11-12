@@ -1,4 +1,3 @@
-import { jsx, jsxs, Fragment } from "../components/JSX";
 import { useState } from 'react';
 import Head from 'next/head';
 import { format } from 'date-fns';
@@ -75,4 +74,5 @@ export default function Booking() {
       {/* Footer */}
     </>
   );
+
 }
