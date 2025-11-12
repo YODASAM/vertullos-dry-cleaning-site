@@ -1,4 +1,3 @@
-import { jsx, jsxs, Fragment } from "../components/JSX";
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -41,4 +40,5 @@ export default function Services() {
       {/* Footer same as index */}
     </>
   );
+
 }
